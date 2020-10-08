@@ -13,6 +13,7 @@ void setup() {
   pinMode(trigPin, OUTPUT);
   pinMode(echoPin, INPUT);
   pinMode(relayPin, OUTPUT);
+  digitalWrite(relayPin, HIGH);  //set default relay state to off
   //Begin Serial communication at a baudrate of 9600:
   Serial.begin(9600);
 }
