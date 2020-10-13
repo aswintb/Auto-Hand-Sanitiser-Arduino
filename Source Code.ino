@@ -1,6 +1,7 @@
-#define trigPin 2
-#define echoPin 3
-#define relayPin 10
+
+#define echoPin 2
+#define trigPin 3
+#define relayPin 6
 #define distancethreshold 10
 
 
@@ -13,7 +14,7 @@ void setup() {
   pinMode(trigPin, OUTPUT);
   pinMode(echoPin, INPUT);
   pinMode(relayPin, OUTPUT);
-  digitalWrite(relayPin, HIGH);  //set default relay state to off
+  digitalWrite(relayPin, HIGH);
   //Begin Serial communication at a baudrate of 9600:
   Serial.begin(9600);
 }
@@ -24,9 +25,9 @@ void loop()
  
  distance=distance_calc();
 
-if (distance<distancethreshold)
+if ((distance<distancethreshold)&&(distance!=0))
  {
-  pump(1000);  //run the pump, for the duration given in paranthesis
+  pump(125);  //run the pump, for the duration given in paranthesis
  }
 
 
@@ -55,4 +56,5 @@ void pump(int pumpdelay)
    digitalWrite(relayPin, LOW);
    delay(pumpdelay);
    digitalWrite(relayPin, HIGH);
+   delay(3500);
 }
