@@ -1,5 +1,5 @@
 This is a small tutorial to make a automatic hand sanitiser for cheap(for me the cost was only 1500,which is less compared to its market price)
-The code is given in the .ino file,Copy it to the arduino ide and upload it to you arduino for it to work
+The code is given in the Source code.ino file,Copy it to the arduino ide and upload it to you arduino for it to work
 
 <h1>Circuit Diagram</h1>
 
