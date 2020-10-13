@@ -1,4 +1,4 @@
-Posting this small tutorial here since i did'nt get enough time to make a video,Here's how to make a automatic hand sanitiser for cheap(for me the cost was only 1500,which is less compared to its market price)
+Posting this small tutorial here since i did'nt get enough time to make a video,Here's a quick tutorial on making a automatic hand sanitiser for cheap(for me the cost was only 1500,which is less compared to its market price)
 The code is given in the Source code.ino file,Copy it to the arduino ide and upload it to you arduino for it to work
 
 <h1>Circuit Diagram</h1>
@@ -22,13 +22,13 @@ Relay,Arduino and wiring have been hot glued to the inner surface of the sanitis
 The arduino has been covered with some polythene cover to prevent water damage
 <img src="https://raw.githubusercontent.com/aswintb/Auto-Hand-Sanitiser-Arduino/main/Images/images/IMG_20201013_162432.jpg" >
 
-The opening of the tank was made large so that the submersible pumc can be put in thye tank,A hole was made on the tank cap for the outlet pipe to pass through
+The opening of the tank was made large so that the submersible pump can be put in the tank,A hole was made on the tank cap for the outlet pipe to pass through
 <img src="https://raw.githubusercontent.com/aswintb/Auto-Hand-Sanitiser-Arduino/main/Images/images/cap.jpg">
 
 The pump
 <img src="https://raw.githubusercontent.com/aswintb/Auto-Hand-Sanitiser-Arduino/main/Images/images/submersible%20pum.jpg">
 
-the pipiing has been taken through the side of the tank and it goes to the bottom where its opening is poshed through the hole which was already present.This end is hot glued inorder to prevent the pipe from getting loose and coming off
+the piping has been taken through the side of the tank and it goes to the bottom where its opening is pushed through the hole which was already present in the case.This end of the pipe  is hot glued inorder to prevent the pipe from getting loose and coming off
 <img src="https://raw.githubusercontent.com/aswintb/Auto-Hand-Sanitiser-Arduino/main/Images/images/piping.jpg">
 <img src="https://raw.githubusercontent.com/aswintb/Auto-Hand-Sanitiser-Arduino/main/Images/images/arduino%20and%20piping.jpg">
 
